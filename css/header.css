@@ -17,12 +17,13 @@ body {
     height: 60px;
     border-bottom: 1px solid #7E7E7E;
 }
-.header-small>.header-row {
+
+.header-always-small>.header-row,.header-small>.header-row {
     background: #000;
     height: 42px;
     border: none;
 }
-.header-small>.second-row {
+.header-always-small>.second-row,.header-small>.second-row {
     height: 41px;
     border-bottom: 1px solid #7E7E7E;
 }
@@ -56,7 +57,7 @@ body {
     padding: 22px 0 5px 0;
     transition: padding 0.3s ease-in-out;
 }
-.header-small .menu-item-label {
+.header-always-small .menu-item-label,.header-small .menu-item-label {
     padding-top: 10px;
 }
 .menu-item-label::after {
