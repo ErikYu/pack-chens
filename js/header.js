@@ -20,10 +20,10 @@ function scrollToggleHeader(_event) {
 
 // 悬浮nav时显示submenu
 function showSubMenu() {
-    $('.item-label-wrapper').mouseenter(function() {
-        $(this).siblings('.sub-menu').show();
+    $('.menu-item').mouseenter(function() {
+        $(this).children('.sub-menu').show();
     })
-    $('.item-label-wrapper').mouseleave(function() {
-        $(this).siblings('.sub-menu').hide();
+    $('.menu-item').mouseleave(function() {
+        $(this).children('.sub-menu').hide();
     })
 }
