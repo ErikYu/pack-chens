@@ -200,11 +200,17 @@
 }
 .support-jmg-container{
     text-align: center;
+    overflow: hidden;
     /* width: 100%;
     max-width: 1200px; */
 }
 .support-jmg-container img {
     width: 100%;
+}
+.support-jmg-container:hover img {
+    transform: scale(1.1);
+    transition: all 0.3s ease-out;
+    opacity: 0.6;
 }
 /*footer*/
 .footer-container{

@@ -173,6 +173,13 @@ body {
     line-height: 55px;
     text-align: left;
 }
+.sub-menu-item:after{
+    content: "";
+    border-bottom: 1px solid #ccc;
+    width: 90%;
+    display: block;
+    transform: translateY(-0.5rem);
+}
 .sub-menu-item>a {
     text-decoration: none;
     color: #fff;
