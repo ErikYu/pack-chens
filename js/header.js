@@ -1,6 +1,6 @@
 $(function() {
-    console.log('asd');
     showSubMenu();
+    showMobileNav();
 })
 window.onscroll = function(event) {
     scrollToggleHeader(event);
@@ -10,11 +10,12 @@ window.onscroll = function(event) {
 function scrollToggleHeader(_event) {
     var scrollVal = $(document).scrollTop();
     if (scrollVal > 0) {
-        console.log('down')
         $('.header-wrapper').addClass('header-small');
+        $('.mobile-header-wrapper').addClass('black');
     } else {
         console.log('top')
         $('.header-wrapper').removeClass('header-small');
+        $('.mobile-header-wrapper').removeClass('black');
     }
 }
 
@@ -25,5 +26,11 @@ function showSubMenu() {
     })
     $('.menu-item').mouseleave(function() {
         $(this).children('.sub-menu').hide();
+    })
+}
+
+function showMobileNav() {
+    $('.show-nav').click(function() {
+        $('.mobile-nav-container').toggleClass('mobile-nav-container-show')
     })
 }

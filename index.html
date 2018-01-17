@@ -4,6 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <!-- <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"> -->
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <title></title>
     <link rel="stylesheet" href="./lib/bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="./lib/slick/slick.css">
@@ -215,13 +216,109 @@
             </div>
         </div>
     </header>
+    <header class="mobile-header-wrapper">
+        <div class="clearfix">
+            <div class="mobile-header-item show-nav">
+                <span class="glyphicon glyphicon-list"></span>
+            </div>
+            <div class="mobile-header-item show-logo">
+                <img src="./img/Group 2.png" />
+            </div>
+        </div>
+    </header>
+    <nav class="mobile-nav-container">
+        <ul>
+            <li>
+                <div class="nav-first">首页</div>
+                <ul>
+                    <li>
+                        <div class="nav-second"><a href="#">城市之窗</a></div>
+                    </li>
+                    <li>
+                        <div class="nav-second"><a href="#">展商动态</a></div>
+                    </li>
+                    <li>
+                        <div class="nav-second"><a href="#">展会亮点</a></div>
+                    </li>
+                    <li>
+                        <div class="nav-second"><a href="#">展会开幕倒计时</a></div>
+                    </li>
+                    <li>
+                        <div class="nav-second"><a href="#">参展、参观、媒体登记通道</a></div>
+                    </li>
+                    <li>
+                        <div class="nav-second"><a href="#">参展企业展示</a></div>
+                    </li>
+                    <li>
+                        <div class="nav-second"><a href="#">主办单位</a></div>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <div class="nav-first">关于展会</div>
+                <ul>
+                    <li><div class="nav-second"><a href="#">展会介绍</a></div></li>
+                    <li><div class="nav-second"><a href="#">场地介绍</a></div></li>
+                    <li><div class="nav-second"><a href="#">主办方介绍</a></div></li>
+                    <li><div class="nav-second"><a href="#">展会资讯与服务</a></div></li>
+                    <li><div class="nav-second"><a href="#">下载中心</a></div></li>
+                </ul>
+            </li>
+            <li>
+                <div class="nav-first">展商中心</div>
+                <ul>
+                    <li><div class="nav-second"><a href="#">参展申请</a></div></li>
+                    <li><div class="nav-second"><a href="#">广告及赞助方案</a></div></li>
+                    <li><div class="nav-second"><a href="#">展商须知</a></div></li>
+                    <li><div class="nav-second"><a href="#">参展城市</a></div></li>
+                    <li><div class="nav-second"><a href="#">展商列表</a></div></li>
+                    <li><div class="nav-second"><a href="#">展商在线服务</a></div></li>
+                </ul>
+            </li>
+            <li>
+                <div class="nav-first">观众中心</div>
+                <ul>
+                    <li><div class="nav-second"><a href="#">参展指南</a></div></li>
+                    <li><div class="nav-second"><a href="#">个人观众预登记处</a></div></li>
+                    <li><div class="nav-second"><a href="#">团体观众与登记处</a></div></li>
+                </ul>
+            </li>
+            <li>
+                <div class="nav-first">媒体中心</div>
+                <ul>
+                    <li><div class="nav-second"><a href="#">新闻媒体</a></div></li>
+                    <li><div class="nav-second"><a href="#">合作媒体</a></div></li>
+                    <li><div class="nav-second"><a href="#">记者注册</a></div></li>
+                    <li><div class="nav-second"><a href="#">EDM电子快讯</a></div></li>
+                    <li><div class="nav-second"><a href="#">展会现场集锦</a></div></li>
+                    <li><div class="nav-second"><a href="#">媒体集锦</a></div></li>
+                </ul>
+            </li>
+            <li>
+                <div class="nav-first">商旅服务</div>
+                <ul>
+                    <li><div class="nav-second"><a href="#">酒店预订</a></div></li>
+                    <li><div class="nav-second"><a href="#">交通指南</a></div></li>
+                    <li><div class="nav-second"><a href="#">上海旅游</a></div></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
     <div class="content-container">
         <section class="row img-container">
             <div class="slider-wrapper">
-                <div class="slider"><img src="./img/slider001.jpg"></div>
-                <div class="slider"><img src="./img/slider002.jpg"></div>
-                <div class="slider"><img src="./img/slider003.jpg"></div>
-                <div class="slider"><img src="./img/slider004.jpg"></div>
+                <div class="slider">
+                    <img src="./img/slider001.jpg">
+                </div>
+                <div class="slider">
+                    <img src="./img/slider002.jpg">
+                </div>
+                <div class="slider">
+                    <img src="./img/slider003.jpg">
+                </div>
+                <div class="slider">
+                    <img src="./img/slider004.jpg">
+                </div>
             </div>
         </section>
         <section class="row recent-container">
@@ -291,8 +388,8 @@
             </div>
         </section>
         <section class="row other-container">
-            <div class="other-wrapper">
-                <div class="other-item">
+            <div class="col-sm-12 other-wrapper">
+                <a href="#" class="other-item">
                     <div class="other-item-img-container">
                         <img src="./img/other1.jpg" class="other-item-img">
                     </div>
@@ -301,8 +398,8 @@
                             展示
                         </div>
                     </div>
-                </div>
-                <div class="other-item">
+                </a>
+                <a href="#" class="other-item">
                     <div class="other-item-img-container">
                         <img src="./img/other2.jpg" class="other-item-img">
                     </div>
@@ -311,8 +408,8 @@
                             展示
                         </div>
                     </div>
-                </div>
-                <div class="other-item">
+                </a>
+                <a href="#" class="other-item">
                     <div class="other-item-img-container">
                         <img src="./img/other3.jpg" class="other-item-img">
                     </div>
@@ -321,9 +418,165 @@
                             展示
                         </div>
                     </div>
+                </a>
+            </div>
+        </section>
+        <section class="row news-container">
+            <div class="news-wrapper">
+                <div class="news-zone wide-news-zone">
+                    <div class="news-zone-header">
+                        展商动态
+                    </div>
+                    <div class="news-zone-content">
+                        <ul>
+                            <li>
+                                <span class="glyphicon glyphicon-play"></span>
+                                <a href="#">会展中心(上海)有限责任公司 召开二次三届董事会</a>
+                                <span class="news-date">2017-10-13</span>
+                            </li>
+                            <li>
+                                <span class="glyphicon glyphicon-play"></span>
+                                <a href="#">会展中心(上海)有限责任公司 召开二次三届董事会</a>
+                                <span class="news-date">2017-10-13</span>
+                            </li>
+                            <li>
+                                <span class="glyphicon glyphicon-play"></span>
+                                <a href="#">会展中心(上海)有限责任公司 召开二次三届董事会</a>
+                                <span class="news-date">2017-10-13</span>
+                            </li>
+                            <li>
+                                <span class="glyphicon glyphicon-play"></span>
+                                <a href="#">会展中心(上海)有限责任公司 召开二次三届董事会</a>
+                                <span class="news-date">2017-10-13</span>
+                            </li>
+                            <li>
+                                <span class="glyphicon glyphicon-play"></span>
+                                <a href="#">会展中心(上海)有限责任公司 召开二次三届董事会</a>
+                                <span class="news-date">2017-10-13</span>
+                            </li>
+                            <li>
+                                <span class="glyphicon glyphicon-play"></span>
+                                <a href="#">会展中心(上海)有限责任公司 召开二次三届董事会</a>
+                                <span class="news-date">2017-10-13</span>
+                            </li>
+                            <li>
+                                <span class="glyphicon glyphicon-play"></span>
+                                <a href="#">会展中心(上海)有限责任公司 召开二次三届董事会</a>
+                                <span class="news-date">2017-10-13</span>
+                            </li>
+                            <li>
+                                <span class="glyphicon glyphicon-play"></span>
+                                <a href="#">会展中心(上海)有限责任公司 召开二次三届董事会</a>
+                                <span class="news-date">2017-10-13</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="news-zone narrow-news-zone">
+                    <div class="news-zone-header">
+                        会展亮点
+                    </div>
+                    <div class="news-zone-content">
+                        <ul>
+                            <li>
+                                <span class="glyphicon glyphicon-play"></span>
+                                <a href="#">会展中心(上海)有限责任公司 召开二次三届董事会董事会董事会董事会</a>
+                                <span class="news-date">2017-10-13</span>
+                            </li>
+                            <li>
+                                <span class="glyphicon glyphicon-play"></span>
+                                <a href="#">会展中心(上海)有限责任公司 召开二次三届董事会</a>
+                                <span class="news-date">2017-10-13</span>
+                            </li>
+                            <li>
+                                <span class="glyphicon glyphicon-play"></span>
+                                <a href="#">会展中心(上海)有限责任公司 召开二次三届董事会</a>
+                                <span class="news-date">2017-10-13</span>
+                            </li>
+                            <li>
+                                <span class="glyphicon glyphicon-play"></span>
+                                <a href="#">会展中心(上海)有限责任公司 召开二次三届董事会</a>
+                                <span class="news-date">2017-10-13</span>
+                            </li>
+                            <li>
+                                <span class="glyphicon glyphicon-play"></span>
+                                <a href="#">会展中心(上海)有限责任公司 召开二次三届董事会</a>
+                                <span class="news-date">2017-10-13</span>
+                            </li>
+                            <li>
+                                <span class="glyphicon glyphicon-play"></span>
+                                <a href="#">会展中心(上海)有限责任公司 召开二次三届董事会</a>
+                                <span class="news-date">2017-10-13</span>
+                            </li>
+                            <li>
+                                <span class="glyphicon glyphicon-play"></span>
+                                <a href="#">会展中心(上海)有限责任公司 召开二次三届董事会</a>
+                                <span class="news-date">2017-10-13</span>
+                            </li>
+                            <li>
+                                <span class="glyphicon glyphicon-play"></span>
+                                <a href="#">会展中心(上海)有限责任公司 召开二次三届董事会</a>
+                                <span class="news-date">2017-10-13</span>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </section>
+        <section class="row support-container">
+            <div class="support-jmg-container">
+                <img src="./img/support.jpg" />
+            </div>
+        </section>
+        <div class="row" style="background-color: #1a2e46; height: 1.2rem;"></div>
+        <footer class="footer-container">
+            <div class="footer-wrapper">
+                <div>
+                    <img style="width: 100%; max-width: 31.5rem;" src="./img/Group 3.png">
+                </div>
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="support-item support-text">
+                            <p>主办单位</p>
+                            <p>上海市财富频道</p>
+                        </div>
+                        <div class="support-item support-img">
+                            <div>
+                                <img class="unit-img" src="./img/unit1.png" />
+                                <img class="unit-img" src="./img/unit1.png" />
+                                <img class="unit-img" src="./img/unit1.png" />
+                                <img class="unit-img" src="./img/unit1.png" />
+                            </div>
+                            <div>
+                                <img class="unit-img" src="./img/unit1.png" />
+                                <img class="unit-img" src="./img/unit1.png" />
+                                <img class="unit-img" src="./img/unit1.png" />
+                                <img class="unit-img" src="./img/unit1.png" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-container col-sm-6 row">
+                        <div class="contact-text col-sm-6">
+                            <h5 style="margin-bottom: 4px;">联系我们</h5>
+                            <p>Federlegno Arredo Eventi spa</p>
+                            <p>Foro Buonaopartre 65</p>
+                            <p>20121 Milano</p>
+                            <p>电话 02 725941</p>
+                            <p>传真 021515456984</p>
+                        </div>
+                        <div class="contact-code col-sm-6">
+                            <img src="./img/code.png" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </footer>
+        <div class="footer-footer">
+            <p>
+                沪ICP备12001212号-5Copyright@2018 China No.1
+            </p>
+        </div>
     </div>
 
     <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.js"></script>
