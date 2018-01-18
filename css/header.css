@@ -187,6 +187,11 @@ body {
 .sub-menu-item>a:hover {
     color: #0656af;
 }
+.nav-second a{
+    line-height: 2rem;
+    width: 100%;
+    display: inline-block;
+}
 
 @media screen and (max-width: 768px) {
     .header-wrapper{
@@ -254,5 +259,10 @@ body {
     }
     .nav-second{
         padding-left: 2rem !important;
+    }
+    .nav-second a{
+        line-height: 2rem;
+        width: 100%;
+        display: inline-block;
     }
 }

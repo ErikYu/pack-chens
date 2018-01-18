@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"> -->
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="./lib/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="./lib/slick/slick.css">
+    <link rel="stylesheet" href="./lib/slick/slick-theme.css">
+    <link rel="stylesheet" href="./css/public.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/content.css">
+    <style>
+        html {
+            font-size: 12px;
+        }
+    </style>
+</head>
+
+<body>
+<header class="header-wrapper">
+    <div class="header-row row">
+        <div class="col-sm-5">
+            <img src="./img/Group 2.png">
+        </div>
+        <div class="col-sm-2"></div>
+        <div class="col-sm-5" style="text-align: right;">
+            <div class="search-container" style="margin-left: auto;">
+                <div class="search-item search-icon">
+                    <span class="glyphicon glyphicon-search"></span>
+                </div>
+                <div class="search-item search-input-container">
+                    <input class="search-input" placeholder="站内搜索..." name="searchContent" />
+                </div>
+                <div class="search-item search-button pull-right">
+                    搜索
+                </div>
+            </div>
+            <div class="language-container">
+                <p class="">当前语言：中文/EN</p>
+            </div>
+        </div>
+    </div>
+    <div class="header-row row second-row">
+        <div class="nav-container row">
+            <ul class="menu-nav-list">
+                <li class="menu-item">
+                        <span class="item-label-wrapper">
+                            <a href="./index.html" class="menu-item-label">首页</a>
+                        </span>
+                    <div class="sub-menu">
+                        <div class="row">
+                            <div class="col-sm-6 sub-menu-item">
+                                <a href="./index.html">城市之窗</a>
+                            </div>
+                            <div class="col-sm-6 sub-menu-item">
+                                <a href="./index.html">展商动态</a>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6 sub-menu-item">
+                                <a href="./index.html">展会亮点</a>
+                            </div>
+                            <div class="col-sm-6 sub-menu-item">
+                                <a href="./index.html">展会开幕倒计时</a>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6 sub-menu-item">
+                                <a href="./index.html">参展、参观、媒体登记通道</a>
+                            </div>
+                            <div class="col-sm-6 sub-menu-item">
+                                <a href="./index.html">参展企业展示</a>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6 sub-menu-item">
+                                <a href="./index.html">主办单位</a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="menu-item">
+                        <span class="item-label-wrapper">
+                            <a href="./transport.html" class="menu-item-label">关于展会</a>
+                        </span>
+                    <div class="sub-menu">
+                        <div class="row">
+                            <div class="col-sm-6 sub-menu-item">
+                                <a href="./transport.html">展会介绍</a>
+                            </div>
+                            <div class="col-sm-6 sub-menu-item">
+                                <a href="./transport.html">场地介绍</a>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6 sub-menu-item">
+                                <a href="./transport.html">主办方介绍</a>
+                            </div>
+                            <div class="col-sm-6 sub-menu-item">
+                                <a href="./transport.html">展会资讯与服务</a>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6 sub-menu-item">
+                                <a href="./transport.html">下载中心</a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="menu-item">
+                        <span class="item-label-wrapper">
+                            <a href="./参展申请.html" class="menu-item-label">展商中心</a>
+                        </span>
+                    <div class="sub-menu">
+                        <div class="row">
+                            <div class="col-sm-6 sub-menu-item">
+                                <a href="./参展申请.html">参展申请</a>
+                            </div>
+                            <div class="col-sm-6 sub-menu-item">
+                                <a href="./参展申请.html">广告及赞助方案</a>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6 sub-menu-item">
+                                <a href="./参展申请.html">展商须知</a>
+                            </div>
+                            <div class="col-sm-6 sub-menu-item">
+                                <a href="./参展申请.html">参展城市</a>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6 sub-menu-item">
+                                <a href="./参展申请.html">展商列表</a>
+                            </div>
+                            <div class="col-sm-6 sub-menu-item">
+                                <a href="./参展申请.html">展商在线服务</a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="menu-item">
+                        <span class="item-label-wrapper">
+                            <a href="./register.html" class="menu-item-label">观众中心</a>
+                        </span>
+                    <div class="sub-menu">
+                        <div class="row">
+                            <div class="col-sm-6 sub-menu-item">
+                                <a href="./register.html">参展指南</a>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6 sub-menu-item">
+                                <a href="./register.html">个人观众预登记处</a>
+                            </div>
+                            <div class="col-sm-6 sub-menu-item">
+                                <a href="./register.html">团体观众与登记处</a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="menu-item">
+                        <span class="item-label-wrapper">
+                            <a href="./媒体中心.html" class="menu-item-label">媒体中心</a>
+                        </span>
+                    <div class="sub-menu">
+                        <div class="row">
+                            <div class="col-sm-6 sub-menu-item">
+                                <a href="./媒体中心.html">新闻媒体</a>
+                            </div>
+                            <div class="col-sm-6 sub-menu-item">
+                                <a href="./媒体中心.html">合作媒体</a>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6 sub-menu-item">
+                                <a href="./媒体中心.html">记者注册</a>
+                            </div>
+                            <div class="col-sm-6 sub-menu-item">
+                                <a href="./媒体中心.html">EDM电子快讯</a>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6 sub-menu-item">
+                                <a href="./媒体中心.html">展会现场集锦</a>
+                            </div>
+                            <div class="col-sm-6 sub-menu-item">
+                                <a href="./媒体中心.html">媒体集锦</a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="menu-item">
+                        <span class="item-label-wrapper">
+                            <a href="./商旅服务.html" class="menu-item-label">商旅服务</a>
+                        </span>
+                    <div class="sub-menu">
+                        <div class="row">
+                            <div class="col-sm-6 sub-menu-item">
+                                <a href="./商旅服务.html">酒店预订</a>
+                            </div>
+                            <div class="col-sm-6 sub-menu-item">
+                                <a href="./商旅服务.html">交通指南</a>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6 sub-menu-item">
+                                <a href="./商旅服务.html">上海旅游</a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</header>
+<header class="mobile-header-wrapper">
+    <div class="clearfix">
+        <div class="mobile-header-item show-nav">
+            <span class="glyphicon glyphicon-list"></span>
+        </div>
+        <div class="mobile-header-item show-logo">
+            <img src="./img/Group 2.png" />
+        </div>
+    </div>
+</header>
+<nav class="mobile-nav-container">
+    <ul>
+        <li>
+            <div class="nav-first">首页</div>
+            <ul>
+                <li>
+                    <div class="nav-second"><a href="./index.html">城市之窗</a></div>
+                </li>
+                <li>
+                    <div class="nav-second"><a href="./index.html">展商动态</a></div>
+                </li>
+                <li>
+                    <div class="nav-second"><a href="./index.html">展会亮点</a></div>
+                </li>
+                <li>
+                    <div class="nav-second"><a href="./index.html">展会开幕倒计时</a></div>
+                </li>
+                <li>
+                    <div class="nav-second"><a href="./index.html">参展、参观、媒体登记通道</a></div>
+                </li>
+                <li>
+                    <div class="nav-second"><a href="./index.html">参展企业展示</a></div>
+                </li>
+                <li>
+                    <div class="nav-second"><a href="./index.html">主办单位</a></div>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <div class="nav-first">关于展会</div>
+            <ul>
+                <li><div class="nav-second"><a href="./transport.html">展会介绍</a></div></li>
+                <li><div class="nav-second"><a href="./transport.html">场地介绍</a></div></li>
+                <li><div class="nav-second"><a href="./transport.html">主办方介绍</a></div></li>
+                <li><div class="nav-second"><a href="./transport.html">展会资讯与服务</a></div></li>
+                <li><div class="nav-second"><a href="./transport.html">下载中心</a></div></li>
+            </ul>
+        </li>
+        <li>
+            <div class="nav-first">展商中心</div>
+            <ul>
+                <li><div class="nav-second"><a href="./参展申请.html">参展申请</a></div></li>
+                <li><div class="nav-second"><a href="./参展申请.html">广告及赞助方案</a></div></li>
+                <li><div class="nav-second"><a href="./参展申请.html">展商须知</a></div></li>
+                <li><div class="nav-second"><a href="./参展申请.html">参展城市</a></div></li>
+                <li><div class="nav-second"><a href="./参展申请.html">展商列表</a></div></li>
+                <li><div class="nav-second"><a href="./参展申请.html">展商在线服务</a></div></li>
+            </ul>
+        </li>
+        <li>
+            <div class="nav-first">观众中心</div>
+            <ul>
+                <li><div class="nav-second"><a href="./register.html">参展指南</a></div></li>
+                <li><div class="nav-second"><a href="./register.html">个人观众预登记处</a></div></li>
+                <li><div class="nav-second"><a href="./register.html">团体观众与登记处</a></div></li>
+            </ul>
+        </li>
+        <li>
+            <div class="nav-first">媒体中心</div>
+            <ul>
+                <li><div class="nav-second"><a href="./媒体中心.html">新闻媒体</a></div></li>
+                <li><div class="nav-second"><a href="./媒体中心.html">合作媒体</a></div></li>
+                <li><div class="nav-second"><a href="./媒体中心.html">记者注册</a></div></li>
+                <li><div class="nav-second"><a href="./媒体中心.html">EDM电子快讯</a></div></li>
+                <li><div class="nav-second"><a href="./媒体中心.html">展会现场集锦</a></div></li>
+                <li><div class="nav-second"><a href="./媒体中心.html">媒体集锦</a></div></li>
+            </ul>
+        </li>
+        <li>
+            <div class="nav-first">商旅服务</div>
+            <ul>
+                <li><div class="nav-second"><a href="./商旅服务.html">酒店预订</a></div></li>
+                <li><div class="nav-second"><a href="./商旅服务.html">交通指南</a></div></li>
+                <li><div class="nav-second"><a href="./商旅服务.html">上海旅游</a></div></li>
+            </ul>
+        </li>
+    </ul>
+</nav>
+<div class="content-container">
+    <section class="article-wrapper clearfix">
+        <div class="article-nav">
+            <div class="article-nav-item">
+                <a class="article-nav-a" href="#">展商须知</a>
+            </div>
+            <div class="article-nav-item">
+                <a class="article-nav-a" href="#">合作伙伴</a>
+            </div>
+            <div class="article-nav-item">
+                <a class="article-nav-a" href="#">展商申请</a>
+            </div>
+            <div class="article-nav-item">
+                <a class="article-nav-a" href="#">广告与赞助方案</a>
+            </div>
+        </div>
+        <div class="article-zone">
+            <div class="article-zone-bread">
+                <a href="#">展商中心</a> >
+                <a href="#" style="color: #0076ff;">参展申请</a>
+            </div>
+            <div class="article-zone-text">
+                <div class="article-info">
+                    <span>发布时间：2017-06-16 13:28:25</span>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <span>点击数：228</span>
+                </div>
+                <h3>媒体中心</h3>
+                <p>
+                    网易娱乐9月2日报道 8月31日16点半(威尼斯当地时间)，第73届威尼斯电影节于水城隆重开幕，开幕式红毯星光熠熠，不仅因为现场电影大咖云集，本次电影节中国资本力量的大动作也引来不少媒体关注。
+                </p>
+                <p>
+                    当地时间9月1日下午，威尼斯电影节正式启动亚太电影艺术单元。中国光大旗下基金控股的上海电影艺术学院与威尼斯电影节组委会签约仪式上，中国光大控股并购基金负责人、上海电影艺术学院董事艾渝先生宣布：上海电影艺术学院获得未来5年威尼斯电影节亚太单元举办权。随后，威尼斯电影节组委会领导为江泊先生颁发威尼斯国际电影节最高荣誉金狮奖“特别贡献奖”，江泊先生是获此殊荣的华人电影教育界第一人。这代表着华语片甚至亚洲电影将逐渐得到国际主流电影舞台的认可。
+                </p>
+                <div style="width: 100%; text-align: center;">
+                    <img style="width: 85%;" src="./img/media.jpg"/>
+                </div>
+                <p>
+                    威尼斯电影节创办于1932年，每年8-9月在威尼斯进行，是世界历史上最悠久的电影节——“国际电影节之父”。它更重视电影本身的“先锋实验”精神，旨在提高电影艺术水平，也是天才电影大师的聚集地。
+                </p>
+                <p>
+                    中国资本此次的“大动作”意味着，接下来5年，在威尼斯电影节亚太单元的每届电影评选中，上海电影艺术学院将能推举2位评委，威尼斯电影将为亚太电影设立更多新奖项，亚太单元评选即将落户上海。另一方面，上海电影艺术学院可积极向这一世界舞台推举3-5部在中国及亚太地区有影响力、艺术水准、独特创意的电影作品入围电影节提名。
+                </p>
+                <p>
+                    近几年，得益于国民经济快速增长和国家对文化产业的大力支持，中国电影文化与产业飞速进步。但是，仅2016年开年这几个月来，电影IP越炒越热，票房记录不断飙升，国产电影被认为“钱多片子差”“中国电影行业水准一般”“票房为王”。而另一方面，《百鸟朝凤》这样发人深省的好片由于华语电影人的话语权有限，得到国际舞台认可的渠道并不通畅，程度也不高。
+                </p>
+            </div>
+        </div>
+    </section>
+    <div class="row" style="background-color: #1a2e46; height: 1.2rem;"></div>
+    <footer class="footer-container">
+        <div class="footer-wrapper">
+            <div>
+                <img style="width: 100%; max-width: 31.5rem;" src="./img/Group 3.png">
+            </div>
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="support-item support-text">
+                        <p>主办单位</p>
+                        <p>上海市财富频道</p>
+                    </div>
+                    <div class="support-item support-img">
+                        <div>
+                            <img class="unit-img" src="./img/unit1.png" />
+                            <img class="unit-img" src="./img/unit1.png" />
+                            <img class="unit-img" src="./img/unit1.png" />
+                            <img class="unit-img" src="./img/unit1.png" />
+                        </div>
+                        <div>
+                            <img class="unit-img" src="./img/unit1.png" />
+                            <img class="unit-img" src="./img/unit1.png" />
+                            <img class="unit-img" src="./img/unit1.png" />
+                            <img class="unit-img" src="./img/unit1.png" />
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-container col-sm-6 row">
+                    <div class="contact-text col-sm-6">
+                        <h5 style="margin-bottom: 4px;">联系我们</h5>
+                        <p>Federlegno Arredo Eventi spa</p>
+                        <p>Foro Buonaopartre 65</p>
+                        <p>20121 Milano</p>
+                        <p>电话 02 725941</p>
+                        <p>传真 021515456984</p>
+                    </div>
+                    <div class="contact-code col-sm-6">
+                        <img src="./img/code.png" />
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+    <div class="footer-footer">
+        <p>
+            沪ICP备12001212号-5Copyright@2018 China No.1
+        </p>
+    </div>
+</div>
+
+<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.js"></script>
+<script src="./lib/slick/slick.min.js"></script>
+<script src="./js/header.js"></script>
+<script src="./js/index.js"></script>
+</body>
+
+</html>
