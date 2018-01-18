@@ -1,3 +1,4 @@
+html,body{overflow:hidden;overflow-y:auto;}
 a:focus{
     outline:none;
     text-decoration: none;

@@ -21,7 +21,7 @@ body {
 .header-row {
     height: 7.7rem;
     padding: 1.8rem 2.3rem;
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.5);
     border-bottom: 1px solid #7E7E7E;
     transition: all 0.3s ease-out;
 }
@@ -82,7 +82,8 @@ body {
 }
 
 .header-always-small>.header-row,.header-small>.header-row {
-    background: #000;
+    /* background-image: linear-gradient(90deg, #06242a, #112941);
+    background-image: -webkit-linear-gradient(90deg, #06242a, #112941); */
     height: 5.5rem;
     border: none;
     padding: 0.5rem;
@@ -124,7 +125,7 @@ body {
     text-align: center;
 }
 .menu-item:hover {
-    background-color: #333333;
+    background-color: rgba(0, 0, 0, 0.9);
 }
 .item-label-wrapper {
     position: relative;
@@ -166,7 +167,7 @@ body {
     left: 0;
     padding: 35px 20px;
     position: absolute;
-    background: #333333;
+    background: rgba(0, 0, 0, 0.9);
 }
 .sub-menu-item{
     height: 55px;

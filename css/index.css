@@ -4,6 +4,7 @@
 }
 .slider{
     height: 50rem;
+    position: relative;
 }
 .slick-dots{
     position: absolute;
@@ -23,6 +24,12 @@
 }
 .slick-initialized .slick-slide{
     background-color: #fff;
+}
+.slider-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
 }
 /*最新动态*/
 .recent-container{
@@ -72,9 +79,12 @@
     height: 100%;
     width: 100%;
 }
+.wide-slider .recent-img{
+    left: -50% !important;
+}
 .recent-img-container .recent-img{
     position: relative;
-    left: -50%;
+    left: -120%;
     top: inherit;
     height: 100%;
     width: auto;
@@ -133,6 +143,10 @@
     height: calc(100% - 10.7rem);
     overflow: hidden;
 }
+.other-item-img{
+    height: 100%;
+    width: auto;
+}
 .other-item-text{
     margin: 0 auto;
     width: 9.1rem;
@@ -145,7 +159,8 @@
 /*news container*/
 .news-container{
     max-height: 44rem;
-    background-color: #f4c0a8;
+    background-image: -webkit-linear-gradient(0, #ffffff, #f0f0f0);
+    background-image: linear-gradient(0, #ffffff, #f0f0f0);
     padding: 2rem 0 3rem 0;
 }
 .news-wrapper{
@@ -270,8 +285,20 @@
     text-overflow: ellipsis;
     white-space: nowrap;
 }
+#doRegister{
+    background-color: #0076ff;
+    border-radius: 0.8rem;
+    width: 10rem;
+    color: #fff;
+}
+#doRegister:focus{
+    outline: none
+}
 
 @media screen and (max-width: 768px) {
+    .slider-text{
+        width: 80%;
+    }
     .title{
         width: 85%;
     }
@@ -282,6 +309,9 @@
         margin-right: 0;
         width: auto;
         /* height: 47rem; */
+    }
+    .recent-img-container .recent-img{
+        left: -50%;
     }
     .wide-slider{
         width: auto;
@@ -310,6 +340,7 @@
     }
     .other-item-img-container img{
         width: 100%;
+        height: auto;
     }
     /*news*/
     .news-container{
