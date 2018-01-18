@@ -59,6 +59,33 @@
 .article-info{
     color: #4a90e2;
 }
+.btn-choose{
+    outline: none;
+    background: #fff;
+    color: rgb(129, 127, 127);
+    border: 0.1rem solid #4a90e2;
+    margin: 0 1rem 1rem 0;
+}
+.btn-choose:hover{
+    color: rgb(129, 127, 127);
+}
+.btn-choose:focus{
+    color: rgb(129, 127, 127);
+    outline: none;
+}
+.btn-choose:visited{
+    outline: none;
+}
+.btn-active{
+    background: #a5c8f0;
+}
+.input-erik{
+    border: 0.1rem solid #4a90e2;
+    outline: none;
+}
+.input-erik:focus{
+    outline: none;
+}
 @media screen and (max-width: 768px) {
     .article-nav{
         display: none;

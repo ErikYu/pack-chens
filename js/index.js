@@ -25,5 +25,33 @@ $(document).ready(function () {
             }
         ]
     });
+    var goDate = [];
+    $('.btn-choose').click(function() {
+        var thisDate = $(this).data().date;
+        $(this).toggleClass('btn-active');
+        if($(this).hasClass('btn-active')) {
+            goDate.push(thisDate);
+        } else {
+            goDate.splice(goDate.indexOf(thisDate), 1);
+        }
+    })
+    $('#doRegister').click(function() {
+        $.ajax({
+            url: '/asdasd',
+            type: 'POST',
+            data: {
+                name: $('#register-name').val(),
+                job:  $('#register-job').val(),
+                email: $('#register-email').val(),
+                code: $('#register-code').val(),
+                cellphone: $('register-cellphone').val(),
+                date: JSON.stringify(goDate),
+                purchaseWay: $("input[name='purchaseWay']:checked").val()
+            },
+            dataType: 'json',
+            success: function(){},
+            error: function(e){}
+        })
+    })
 });
 

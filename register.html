@@ -429,26 +429,87 @@
             </div>
             <div class="article-zone">
                 <div class="article-zone-bread">
-                    <a href="#">展商中心</a> >
-                    <a href="#" style="color: #0076ff;">展商申请</a>
+                    <a href="#">观众中心</a> >
+                    <a href="#" style="color: #0076ff;">观众注册</a>
                 </div>
                 <div class="article-zone-text">
                     <div class="article-info">
                         <span>发布时间：2017-06-16 13:28:25</span>&nbsp;&nbsp;&nbsp;&nbsp;
                         <span>点击数：228</span>
                     </div>
-                    <h3>第一届上海三角洲城市经济协调会《展商文件通知》</h3>
-                    <p>
-                        上海理财博览会被誉为金融行业的年度盛会、上海市民一年一度的理财嘉年华、上海建设国际金融中心的标志性展会和上海城市一张亮丽的金融名片。
-                    </p>
-                    <p>
-                        经过 15年的发展，上海理财博览会已经成为目前国内展出规模最大、参展人数最多、活动最丰富、影响力最大的金融理财展会。2017 年第十五届上海理财博览会吸引了来自于银行、保险、证券、期货、信托、外汇、黄金、财富管理及新金融近200 家海内外知名企业参展，展出面积超20000
-                        平方米，吸引了约10,0700 名投资者现场参观，创下历史新高。在当前中国经济增速趋缓的大背景下，中小企业主及个人投资者纷纷来到上海理财博览会学习和寻找投资理财的新方式、新标的。参展企业和广大投资者对展会给予高度评价，百余家媒体对展会进行了充分的报道。
-                    </p>
-                    <img style="width: 100%;" src="./img/canzhan.jpg">
-                    <p>
-                        上海理财博览会始终以服务中国金融理财行业发展为宗旨，顺应中国金融改革和创新的潮流，为各类金融企业的创新和理财产品提供展示的舞台，为业内人士和广大投资者搭建沟通交流平台，为广大城市居民实现财富保值增值提供更多的选择机会。
-                    </p>
+                    <h3>用户注册</h3>
+                    <form class="form-horizontal">
+                        <h2 style="text-align: center;">上海城市经济协调会</h2>
+                        <div class="form-group">
+                            <label for="register-name" class="col-sm-2 control-label">姓名&nbsp;<span style="color: #0076ff; line-height: 1.2rem; font-weight: bold;">*</span></label>
+                            <div class="col-sm-10">
+                                <input name="name" type="text" class="form-control input-erik" id="register-name" placeholder="请输入姓名">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="register-job" class="col-sm-2 control-label">职位&nbsp;<span style="color: #0076ff; line-height: 1.2rem; font-weight: bold;">*</span></label>
+                            <div class="col-sm-10">
+                                <input name="job" type="text" class="form-control input-erik" id="register-job" placeholder="请输入职位">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="register-email" class="col-sm-2 control-label">邮箱&nbsp;<span style="color: #0076ff; line-height: 1.2rem; font-weight: bold;">*</span></label>
+                            <div class="col-sm-7">
+                                <input name="email" type="email" class="form-control input-erik" id="register-email" placeholder="请输入邮箱">
+                            </div>
+                            <div class="col-sm-3">
+                                <button type="button" style="width: 100%;" class="btn btn-primary">获取验证码</button>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="register-code" class="col-sm-2 control-label">验证码&nbsp;<span style="color: #0076ff; line-height: 1.2rem; font-weight: bold;">*</span></label>
+                            <div class="col-sm-10">
+                                <input name="code" type="text" class="form-control input-erik" id="register-code" placeholder="请输入获得的验证码">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="register-cellphone" class="col-sm-2 control-label">手机号&nbsp;</label>
+                            <div class="col-sm-10">
+                                <input name="cellphone" type="text" class="form-control input-erik" id="register-cellphone" placeholder="请输入手机号">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">参展日期&nbsp;<span style="color: #0076ff; line-height: 1.2rem; font-weight: bold;">*</span></label>
+                            <div class="col-sm-10">
+                                <div>
+                                    <button type="button" class="btn btn-choose" data-date="2017/08/17">2017/08/17 周三</button>
+                                    <button type="button" class="btn btn-choose" data-date="2017/08/18">2017/08/18 周四</button>
+                                    <button type="button" class="btn btn-choose" data-date="2017/08/19">2017/08/19 周五</button>
+                                </div>
+                                <div>
+                                    <button type="button" class="btn btn-choose" data-date="2017/08/20">2017/08/20 周六</button>
+                                    <button type="button" class="btn btn-choose" data-date="2017/08/21">2017/08/21 周日</button>
+                                    <button type="button" class="btn btn-choose" data-date="2017/08/22">2017/08/22 周一</button>
+                                </div>
+                                <div>
+                                    <span style="color: #0076ff;">注：2017/08/19为媒体日不对公众开放敬请谅解，电子票将通过邮箱发送，请注意查收。</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">在线购买&nbsp;<span style="color: #0076ff; line-height: 1.2rem; font-weight: bold;">*</span></label>
+                            <div class="col-sm-10">
+                                <div class="radio">
+                                    <label>
+                                        <input name="purchaseWay" type="radio" value="wx"> 微信
+                                    </label>&nbsp;&nbsp;&nbsp;&nbsp;
+                                    <label>
+                                        <input name="purchaseWay" type="radio" value="ali"> 支付宝
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-sm-offset-2 col-sm-10">
+                                <button type="button" class="btn btn-default" id="doRegister">确认</button>
+                            </div>
+                        </div>
+                    </form>
                 </div>
             </div>
         </section>
