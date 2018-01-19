@@ -86,7 +86,7 @@ body {
     background-image: -webkit-linear-gradient(90deg, #06242a, #112941); */
     height: 5.5rem;
     border: none;
-    padding: 0.5rem;
+    padding: 0.5rem 1.2rem;
 }
 .header-always-small>.second-row,.header-small>.second-row {
     height: 41px;
@@ -257,6 +257,8 @@ body {
     }
     .nav-first{
         padding-left: 1rem !important;
+        color: #0656af;
+        font-weight: bold;
     }
     .nav-second{
         padding-left: 2rem !important;
